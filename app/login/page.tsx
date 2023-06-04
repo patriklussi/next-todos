@@ -22,7 +22,7 @@ const LoginPage = () => {
             <div>
               <label>Email</label>
               <input
-                className="block w-full  p-2 my-2 border-2"
+                className="block w-full bg-neutral p-2 my-2 border-none outline-activeBlue"
                 type="text"
                 placeholder="email"
               />
@@ -30,10 +30,11 @@ const LoginPage = () => {
             <div>
               <label>Password</label>
               <input
-                className="block w-full p-2 my-2 border-2"
+              placeholder="password"
+                className="block w-full bg-neutral p-2 my-2 border-none outline-activeBlue"
                 type="password"
               />
-              <div className="flex justify-between">
+              <div className="flex justify-between my-2 ">
                 <div>
                   <input className="cursor-pointer" type="checkbox" />
                   <label className="mx-2 text-sm">Remember me</label>{" "}
